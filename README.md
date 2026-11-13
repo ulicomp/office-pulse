@@ -18,7 +18,7 @@
 > **This is a case study repository.** Office Pulse is a commercial product with real agency data, so the source code stays private. This page shows what it does, how it is built, and the engineering problems behind it.
 
 <p align="center">
-  <img src="assets/dashboard.png" alt="Office Pulse dashboard: revenue, pending validation, expenses, remaining money, pending commissions, debt and goals" width="900">
+  <img src="dashboard.png" alt="Office Pulse dashboard: revenue, pending validation, expenses, remaining money, pending commissions, debt and goals" width="900">
 </p>
 
 ---
@@ -43,19 +43,19 @@ I lived this problem firsthand working inside an insurance agency, building prod
 
 **Commission Check:** every carrier payment line matched to its policy, with expected vs. paid, chargebacks, partial payments and lines that need review.
 
-<img src="assets/commission-check.png" alt="Commission Check results" width="900">
+<img src="commission-check.png" alt="Commission Check results" width="900">
 
 | Policy registry | Money by carrier |
 |---|---|
-| <img src="assets/policies.png" alt="Policy registry with payment status" width="440"> | <img src="assets/carriers.png" alt="Revenue by carrier" width="440"> |
+| <img src="policies.png" alt="Policy registry with payment status" width="440"> | <img src="carriers.png" alt="Revenue by carrier" width="440"> |
 
 | Revenue | Expenses |
 |---|---|
-| <img src="assets/revenue.png" alt="Confirmed revenue" width="440"> | <img src="assets/expenses.png" alt="Expense control" width="440"> |
+| <img src="revenue.png" alt="Confirmed revenue" width="440"> | <img src="expenses.png" alt="Expense control" width="440"> |
 
 | Goals and next-month targets | Landing page |
 |---|---|
-| <img src="assets/goals.png" alt="Revenue, production and premium goals" width="440"> | <img src="assets/landing.png" alt="Office Pulse landing page" width="440"> |
+| <img src="goals.png" alt="Revenue, production and premium goals" width="440"> | <img src="landing.png" alt="Office Pulse landing page" width="440"> |
 
 <sub>The product UI is in Spanish. Policy numbers and client names are blurred.</sub>
 
@@ -96,8 +96,8 @@ flowchart LR
 
 | Layer | Tools |
 |---|---|
-| Frontend | React, TypeScript, Vite, Tailwind CSS, React Query |
-| Backend | Supabase (PostgreSQL, Auth, Row Level Security, Edge Functions) |
+| Frontend | React, TypeScript, Tailwind CSS, React Query |
+| Backend | Supabase (PostgreSQL, Edge Functions) |
 | Integrations | Plaid API, browser automation for data intake |
 | Workflow | Git/GitHub, Claude Code, Codex |
 
