@@ -1,4 +1,6 @@
-<h1 align="center">Office Pulse</h1>
+<p align="center">
+  <img src="logo.png" alt="Office Pulse" width="300">
+</p>
 
 <p align="center">
   <b>Commission reconciliation and financial health platform for insurance agencies.</b><br>
